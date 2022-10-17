@@ -1,11 +1,10 @@
 Algoritmo "Primos"
-// Disciplina   : [Linguagem e Lógica de Programação]
-// Professor   : Antonio Carlos Nicolodi
-// Descrição   : Aqui você descreve o que o programa faz! (função)
+// Disciplina   : [Linguagem e LÃ³gica de ProgramaÃ§Ã£o]
+// DescriÃ§Ã£o   : Aqui vocÃª descreve o que o programa faz! (funÃ§Ã£o)
 // Autor(a)    : Juliano Prates da Cunha
-// Data atual  : 11/10/2022
+
 Var
-// Seção de Declarações das variáveis
+// SeÃ§Ã£o de DeclaraÃ§Ãµes das variÃ¡veis
 N: inteiro
 
 soma:inteiro
@@ -16,9 +15,9 @@ u: inteiro
 teste: logico
 
 Inicio
-// Seção de Comandos, procedimento, funções, operadores, etc...
+// SeÃ§Ã£o de Comandos, procedimento, funÃ§Ãµes, operadores, etc...
 
-escreva("digite o número inicial: ")
+escreva("digite o nÃºmero inicial: ")
 
 leia(N)
 
@@ -44,7 +43,7 @@ ate u <= 1
 
 se teste = verdadeiro entao
 
-escreval(" O número ", i ," é primo.")
+escreval(" O nÃºmero ", i ," Ã© primo.")
 
 soma <- soma+i
 
@@ -54,6 +53,6 @@ fimpara
 
 escreval()
 
-escreva("A soma de todos os números primos menores iguais a ", N ," é: ", soma)
+escreva("A soma de todos os nÃºmeros primos menores iguais a ", N ," Ã©: ", soma)
 
 Fimalgoritmo
